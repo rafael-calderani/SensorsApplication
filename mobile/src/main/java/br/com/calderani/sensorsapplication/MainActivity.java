@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //TODO: verificar api.ai
+
         Button bt = (Button) findViewById(R.id.btAccelerometer);
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
